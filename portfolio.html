@@ -15,8 +15,10 @@
     <header class="page-header">
         <div class="container header-container">
             <nav class="header-navigation">
-                <a href="/" > <span class="header-logo text">Web</span><span class="header-logo-title text">Studio</span>
-                </a>
+                <div class="position-logo">
+                    <a href="/" > <span class="header-logo text">Web</span><span class="header-logo-title text">Studio</span>
+                    </a>
+                </div>
                 <ul class="header-list list">
                     <li class="header-item"> 
                         <a href="index.html" class="header-list-item alert title item" > Студия</a> </li>
@@ -26,109 +28,141 @@
                         <a href="" class="header-list-item alert title item" > Контакты</a> </li>
                 </ul>
             </nav> 
-            <div class="header-connect"> 
+            <div class="header-connect "> 
                 <ul class="header-auth-list list">
                     <li class="auth-header-item"> 
-                        <a href="mailto:info@example.com" class="header-mail alert success item">info@example.com</a></li>
+                        <a href="mailto:info@example.com" class="header-mail alert success item">info@example.com
+                        </a>
+                    </li>
                     <li class="auth-header-item">
-                        <a href="tel:+380991111111" class="header-tel alert success item">+380991111111</a></li>
+                        <a href="tel:+380991111111" class="header-tel alert success item">+380991111111
+                        </a>
+                    </li>     
                 </ul>
             </div>
         </div>
     </header>
     <main>
         <section class="portfolio">
-            <h1 class="visually-hidden">Портфолио</h1>
-            <ul class="main-list list">
-                <li> <button type="button" class="main-link-btn title link spacing">Все</button></li>
-                <li> <button type="button" class="main-link-btn title link spacing">Веб-сайти</button></li>
-                <li> <button type="button" class="main-link-btn title link spacing">Приложения</button></li>
-                <li> <button type="button" class="main-link-btn title link spacing">Дизайн</button></li>
-                <li> <button type="button" class="main-link-btn title link spacing">Маркетинг</button></li>
-            </ul>
-            <ul class="main-portfolio-list list">  
-                <li class="portfolio-item ">
-                    <a href="">
-                        <img src="images/Технокряк.jpg" alt="" width="370" height="294">
-                        <h2  class="portfolio-title title weight table">Технокряк</h2>
-                        <p class="portfolio-text success link spacing">Веб-сайт</p>
-                    </a>
-                </li> 
-                <li class="portfolio-item">
-                    <a href=""> 
-                    <img src="images/Постер_New_Orlean_vs_Golden_Star.jpg" alt="" width="370" height="294">
-                    <h2 class="portfolio-title  title weight table">Постер New Orlean vs Golden Star</h2>
-                    <p class="portfolio-text success link spacing">Дизайн</p> 
-                    </a>
-                </li>
-                <li class="portfolio-item">
-                    <a href="">   
-                        <img src="images/Ресторан_Seafood.jpg" alt="" width="370" height="294">
-                        <h2 class="portfolio-title title weight table">Ресторан Seafood</h2>
-                        <p class="portfolio-text success link spacing">Приложение</p>
-                    </a>
-                </li>
-                <li class="portfolio-item">
-                    <a href="">  
-                        <img src="images/Проект_Prime.jpg" alt="" width="370" height="294">
-                        <h2 class="portfolio-title title weight table">Проект Prime</h2>
-                        <p class="portfolio-text success link spacing">Маркетинг</p>
-                    </a> 
-                </li>
-                <li class="portfolio-item"> 
-                    <a href="">   
-                        <img src="images/Проект_Boxes.jpg" alt="" width="370" height="294">
-                        <h2 class="portfolio-title title weight table">Проект Boxes</h2>
-                        <p class="portfolio-text success link spacing">Приложение</p>
-                    </a> 
-                </li> 
-                <li class="portfolio-item">
-                    <a href="">   
-                        <img src="images/Inspiration_has_no_Borders.jpg" alt="" width="370" height="294">
-                        <h2 class="portfolio-title title weight table">Inspiration has no Borders</h2>
-                        <p class="portfolio-text success link spacing">Веб-сайт</p>
-                    </a> 
-                </li> 
-                <li class="portfolio-item">  
-                    <a href=""> 
-                        <img src="images/Издание_Limited_Edition.jpg" alt="" width="370" height="294">
-                        <h2 class="portfolio-title title weight table">Издание Limited Edition</h2>
-                        <p class="portfolio-text success link spacing">Дизайн</p>
-                    </a> 
-                </li>
-                <li class="portfolio-item">
-                    <a href="">   
-                        <img src="images/Проект_LAB.jpg" alt="" width="370" height="294">
-                        <h2 class="portfolio-title title weight table">Проект LAB</h2>
-                        <p class="portfolio-text success link spacing">Маркетинг</p>
-                    </a> 
-                </li>
-                <li class="portfolio-item">
-                    <a href="">    
-                        <img src="images/Growing_Business.jpg" alt="" width="370" height="294">
-                        <h2 class="portfolio-title title weight table">Growing Business</h2>
-                        <p class="portfolio-text success link spacing">Приложение</p>
-                    </a>
-                </li>
-            </ul>    
+            <div class="container">
+                <h1 class="visually-hidden">Портфолио</h1>
+                <ul class="main-list list">
+                    <li> <button type="button" class="main-link-btn title link spacing">Все</button></li>
+                    <li> <button type="button" class="main-link-btn title link spacing">Веб-сайти</button></li>
+                    <li> <button type="button" class="main-link-btn title link spacing">Приложения</button></li>
+                    <li> <button type="button" class="main-link-btn title link spacing">Дизайн</button></li>
+                    <li> <button type="button" class="main-link-btn title link spacing">Маркетинг</button></li>
+                </ul>
+                <ul class="main-portfolio-list list"> 
+                    <div class="portfolio-bloc1">
+                        <div class="portfolio-frame">
+                            <li class="portfolio-item ">
+                                <a href="">
+                                    <img src="images/Технокряк.jpg" alt="" width="370" height="294">
+                                    <h2  class="portfolio-title title weight table">Технокряк</h2>
+                                    <p class="portfolio-text success link spacing">Веб-сайт</p>
+                                </a>
+                            </li> 
+                        </div> 
+                        <div class="portfolio-frame"> 
+                            <li class="portfolio-item">
+                                <a href=""> 
+                                <img src="images/Постер_New_Orlean_vs_Golden_Star.jpg" alt="" width="370" height="294">
+                                <h2 class="portfolio-title  title weight table">Постер New Orlean vs Golden Star</h2>
+                                <p class="portfolio-text success link spacing">Дизайн</p> 
+                                </a>
+                            </li>
+                        </div>
+                        <div class="portfolio-frame">     
+                            <li class="portfolio-item">
+                                <a href="">   
+                                    <img src="images/Ресторан_Seafood.jpg" alt="" width="370" height="294">
+                                    <h2 class="portfolio-title title weight table">Ресторан Seafood</h2>
+                                    <p class="portfolio-text success link spacing">Приложение</p>
+                                </a>
+                            </li>
+                        </div>    
+                    </div> 
+                    <div class="portfolio-bloc2">
+                        <div class="portfolio-frame"> 
+                            <li class="portfolio-item">
+                                <a href="">  
+                                    <img src="images/Проект_Prime.jpg" alt="" width="370" height="294">
+                                    <h2 class="portfolio-title title weight table">Проект Prime</h2>
+                                    <p class="portfolio-text success link spacing">Маркетинг</p>
+                                </a> 
+                            </li>
+                        </div>
+                        <div class="portfolio-frame">     
+                            <li class="portfolio-item"> 
+                                <a href="">   
+                                    <img src="images/Проект_Boxes.jpg" alt="" width="370" height="294">
+                                    <h2 class="portfolio-title title weight table">Проект Boxes</h2>
+                                    <p class="portfolio-text success link spacing">Приложение</p>
+                                </a> 
+                            </li> 
+                        </div>
+                        <div class="portfolio-frame">     
+                            <li class="portfolio-item">
+                                <a href="">   
+                                    <img src="images/Inspiration_has_no_Borders.jpg" alt="" width="370" height="294">
+                                    <h2 class="portfolio-title title weight table">Inspiration has no Borders</h2>
+                                    <p class="portfolio-text success link spacing">Веб-сайт</p>
+                                </a> 
+                            </li> 
+                        </div>    
+                    </div>
+                    <div class="portfolio-bloc3">
+                        <div class="portfolio-frame"> 
+                            <li class="portfolio-item">  
+                                <a href=""> 
+                                    <img src="images/Издание_Limited_Edition.jpg" alt="" width="370" height="294">
+                                    <h2 class="portfolio-title title weight table">Издание Limited Edition</h2>
+                                    <p class="portfolio-text success link spacing">Дизайн</p>
+                                </a> 
+                            </li>
+                        </div>
+                        <div class="portfolio-frame"> 
+                            <li class="portfolio-item">
+                                <a href="">   
+                                    <img src="images/Проект_LAB.jpg" alt="" width="370" height="294">
+                                    <h2 class="portfolio-title title weight table">Проект LAB</h2>
+                                    <p class="portfolio-text success link spacing">Маркетинг</p>
+                                </a> 
+                            </li>
+                        </div>
+                        <div class="portfolio-frame">     
+                            <li class="portfolio-item">
+                                <a href="">    
+                                    <img src="images/Growing_Business.jpg" alt="" width="370" height="294">
+                                    <h2 class="portfolio-title title weight table">Growing Business</h2>
+                                    <p class="portfolio-text success link spacing">Приложение</p>
+                                </a>
+                            </li>
+                        </div>    
+                    </div>
+                </ul> 
+            </div>   
         </section>
     </main>
-    <footer class="contacts">    
-        <a href="/" class="contacts-link-title"> <span class="footer-logo text">Web</span><span class="footer-logo-title text">Studio</span>
-        </a>
-            <address>
-                <ul class="contacts-list list">
-                    <li class="contacts-item">
-                    <a href="" class="address-contacts-link main"> г. Киев, пр-т Леси Украинки, 26</a>      
-                    </li>
-                    <li class="contacts-item">
-                        <a href="mailto:info@example.com" class="contacts-link">info@example.com</a>
-                    </li>
-                    <li class="contacts-item">
-                        <a href="tel:+380991111111" class="contacts-link">+380991111111</a>
-                    </li>
-                </ul>  
-            </address>
+    <footer class="contacts">  
+        <div class="container">
+            <a href="/" class="contacts-link-title text"><span class="footer-logo text">Web</span><span class="footer-logo-title">Studio</span>
+            </a>
+                <address>
+                    <ul class="contacts-list list">
+                        <li class="contacts-item">
+                        <a href="" class="address-contacts-link main"> г. Киев, пр-т Леси Украинки, 26</a>      
+                        </li>
+                        <li class="contacts-item">
+                            <a href="mailto:info@example.com" class="contacts-link">info@example.com</a>
+                        </li>
+                        <li class="contacts-item">
+                            <a href="tel:+380991111111" class="contacts-link">+380991111111</a>
+                        </li>
+                    </ul>  
+                </address>
+        </div>  
     </footer>
 </body>
 </html>
