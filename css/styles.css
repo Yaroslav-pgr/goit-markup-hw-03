@@ -70,6 +70,12 @@ a {
     padding-bottom: 94px;   
     }  
 /*--------HEADER*------*/
+.page-header{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: 1px solid #ECECEC;
+    background:var(--header-background-color);
+}
 .header-navigation{
     display: flex;
     align-items: center;
@@ -86,6 +92,7 @@ a {
 .header-container{
     display: flex;
     align-items: center;
+    
 }
 .header-logo{
     font-family:'Raleway';
@@ -103,9 +110,6 @@ a {
     padding-top: 23px;
     padding-bottom: 23px;
     color: var(--header-studio-color)
-}
-.page-header{
-    background:var(--header-background-color);
 }
 .header-list{
     align-items: center;
@@ -146,8 +150,8 @@ a {
 }
 /*-------HERO------*/
 .hero{
-    padding-top:94px ;
-    padding-bottom:94px ;
+    padding-top:200px ;
+    padding-bottom:200px ;
     background-color: var(--hero-background-color);
 }
 .hero-container{
@@ -252,17 +256,21 @@ margin-right: 30px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14);
     border-radius: 0px 0px 4px 4px;  
 }
+.team-item-list{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 .team-name-text { 
     font-weight: 500;
     line-height: 1.18;
     text-align: center;
-    padding-top: 30px;
+    margin-bottom: 10px;
+   
 }
 .position-item-text{
     font-weight: normal;
     line-height: 1.18;
-    text-align: center;
-    padding-top: 10px;
+    text-align: center;  
 }
 /*--------------CONTACTS-------------*/
 .contacts{
@@ -320,14 +328,18 @@ margin-right: 30px;
 .portfolio{
     padding-top: 94px;
     padding-bottom: 94px;
+   
 }
 .main-list{
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+    
 }
 .main-list-btn{
     margin-right: 8px;
+    
+    
 }
 .main-link-btn {
     font-family: inherit;
@@ -343,7 +355,9 @@ margin-right: 30px;
     padding-right: 22px;
     padding-bottom: 6px;
     padding-left: 22px;
-    cursor: pointer;   
+    cursor: pointer;
+    border: 0; 
+    border-radius: 4px; 
 }
 .main-link-btn {
     background-color:var(--title-background-color)
